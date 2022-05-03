@@ -1,7 +1,5 @@
 # Projeto Atlas Financeiro
-----
 ## Membros do Grupo
-----
 - Jean Pierre Cordeiro Aboumrad - [GitHub](https://github.com/CordeiroAboumrad)
 - Juan Carvalho Silva de Lima - [GitHub](https://github.com/jsuisjuan)
 - Mateus de Brito Sotero - [GitHub](https://github.com/mateussotero)
