@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     text-align: center;
     font-family: 'Roboto Flex', sans-serif;
 }
@@ -12,10 +12,11 @@ body {
     position: relative;
     margin: 0;
     width: 100%;
+    padding: 0 0 1px 0;
   align-items: center;
   justify-content: center;
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg, #0036a2 0%, #11295b 25%, #143d60 51%, #1087b5 100%);
+  background-image: linear-gradient(-45deg, #0445c6 0%, #11295b 25%, #143d60 51%, #069eda 100%);
   -webkit-animation: AnimateBG 20s ease infinite;
           animation: AnimateBG 20s ease infinite;
 }
@@ -52,7 +53,7 @@ body {
 #navbar {
     color: #133B5C;
     background-color: transparent;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     position: relative;
     
 }
@@ -94,26 +95,65 @@ body {
 
 /* ---- Titulo ---- */
 .perfil {
-    width: 100%;
-    height: 100%;
-    display: inline-flex;
-    padding: 10px;
-    
+    width: 80%;
+    height: 335px;
+    padding: 10px 10px 0 10px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+.perfil-image-container {
+    text-align: left;
+}
+.thumb-container {
+    background-image: url(/media/chicago.jpg);
+    padding: 15px 0 10px 0;
+    border-radius: 10px;
 }
 .perfil-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     position: relative;
-    bottom: 45px;
-    margin-left: 45px;
+    margin-left: 70px;
+    border: 4px solid white;
+    box-shadow: 30px 5px 20px #00000088;
 }
 .perfil-name {
-    margin-left: 45px;
     position: relative;
-    top: 20px;
-    color: #dddddd;
+    top: 15px;
+    color: #0e0e0e;
+    text-align: left;
+    left: 80px;
 }
+.perfil-info {
+    color: #0e0e0e;
+    position: relative;
+    text-align: left;
+    top: 18px;
+    left: 60px;
+}
+.perfil-location {
+    position: relative;
+    bottom: 10px;
+    color: #919191;
+}
+
+.sobre-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    left: 380px;
+    bottom: 120px;
+}
+.perfil-descricao {
+    width: 50%;
+    text-align: justify;
+    color: #0e0e0e;
+    margin: 0%;
+}
+
 .title-container {
     margin-bottom: 75px;
 }
